@@ -1,0 +1,22 @@
+{
+	"user": "NAMAKAMU",
+	"repo": "NAMAPROJECTMU",
+	"tag": "0.0.1",
+	"entry": "gamemodes/NAMAPROJECTMU.pwn",
+    "output": "gamemodes/NAMAPROJECTMU.amx",
+	"local": true,
+    "build": {
+        "includes": [
+            "legacy-includes",
+            "gamemodes/components",
+            "gamemodes/modules"
+        ]
+    },
+	"dependencies": [
+		"pawn-lang/samp-stdlib",
+		"Sreyas-Sreelal/samp-bcrypt:0.3.4",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"pawn-lang/YSI-Includes@5.x",
+		"Aiuraa/samp-account-lib"
+	]
+}
