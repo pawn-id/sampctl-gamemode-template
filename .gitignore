@@ -1,0 +1,20 @@
+
+# Dependencies folder
+dependencies/
+
+# Logging
+server-log.txt
+log.txt
+logs/
+
+# Useless stuff
+plugins/
+
+# Binary Files
+samp-npc
+samp03svr
+announce
+*.amx
+*.dll
+*.so
+*.exe
