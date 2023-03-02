@@ -18,3 +18,8 @@ announce
 *.dll
 *.so
 *.exe
+
+# Server.cfg
+server.cfg
+config.json
+ban.json
