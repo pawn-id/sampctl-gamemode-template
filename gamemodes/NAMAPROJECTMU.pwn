@@ -3,7 +3,7 @@
 #include <a_samp>
 
 // Modules
-#include <components\accounts>
+#include <components\account>
 
 // Main Script
 main()
