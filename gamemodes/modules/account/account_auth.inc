@@ -38,18 +38,15 @@ PromptLoginDialog(playerid)
 }
 
 #include <YSI_Coding\y_hooks>
-hook OnPlayerRequestClass(playerid, classid)
+hook OnPlayerConnect(playerid)
 {
-	// Untuk mencegah F3
-	if (!g_sRequestClassPassed[playerid])
-	{
+
 		new jam, menit;
 		gettime(jam, menit, _);
 
 		TogglePlayerSpectating(playerid, true);
 		SetPlayerTime(playerid, jam, menit);
 
-		AccLib_FetchAccount(playerid);
 		return 1;
 	}
 	return 0;
